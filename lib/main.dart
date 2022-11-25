@@ -135,7 +135,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       height: (MediaQuery.of(context).size.height -
               appBar.preferredSize.height -
               MediaQuery.of(context).padding.top) *
-          0.3,
+          0.25,
       child: Chart(recentTransactions: _recentTransactions),
     );
     return Scaffold(
