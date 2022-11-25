@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       height: (MediaQuery.of(context).size.height -
               appBar.preferredSize.height -
               MediaQuery.of(context).padding.top) *
-          0.7,
+          0.75,
       child: TransactionList(
         transactions: _userTransactions.reversed.toList(),
         deleteTxn: _deleteTransaction,
@@ -166,7 +166,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                     height: (MediaQuery.of(context).size.height -
                             appBar.preferredSize.height -
                             MediaQuery.of(context).padding.top) *
-                        0.8,
+                        0.75,
                     child: Chart(recentTransactions: _recentTransactions),
                   )
                 : txnListWidget,

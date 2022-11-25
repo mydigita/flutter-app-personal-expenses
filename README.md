@@ -1,5 +1,3 @@
-# personal_expenses
+# Flutter App personal_expenses
 
-A new Flutter project.
-
-## Getting Started
+Flutter and Dart Basic
